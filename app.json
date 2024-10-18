@@ -1,4 +1,17 @@
 {
   "name": "deeplinknative",
-  "displayName": "deeplinknative"
+  "displayName": "deeplinknative",
+    "expo": {
+      "plugins": [
+        [
+          "expo-camera",
+          {
+            "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+          }
+        ]
+      ]
+    },
+    "android": {
+      "permissions": ["CAMERA"]
+    }
 }
